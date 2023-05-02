@@ -1,0 +1,13 @@
+package oopcoding;
+
+import java.util.ArrayList;
+
+public class Emp {
+	 ArrayList<Employee> employees = new ArrayList<Employee>();
+     employee.add(new Employee("John", 1001, 50000));
+     employee.add(new Employee("Jane", 1002, 75000));
+     employee.add(new Employee("Peter", 1003, 100000));
+     employee.add(new Employee("Susan", 1004, 90000));
+     employee.add(new Employee("David", 1005, 80000));
+
+}

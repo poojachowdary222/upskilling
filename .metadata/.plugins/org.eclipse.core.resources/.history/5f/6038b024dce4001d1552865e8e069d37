@@ -1,0 +1,17 @@
+package day2;
+
+public class DupilicateElement {
+public static void main (String args[]) {
+	int[] arr = {1, 2, 3, 4, 5, 2, 6, 7, 5};
+	boolean[] flags = new boolean[arr.length];
+	for (int i = 0; i < arr.length; i++) {
+	    if (flags[i]) {
+	        System.out.println("Duplicate element found: " + arr[i]);
+	    } else {
+	        flags[i] = true;
+	    }
+	}
+
+	
+}
+}

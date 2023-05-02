@@ -1,0 +1,16 @@
+package p1;
+
+//import oopcoding.Person;
+
+public class Main {
+
+	public static void main(String[] args) {
+Person1 p = new Person1();
+p.setName("abc");
+p.setAge(10);
+System.out.println( "name :" +p.getName);
+System.out.println( "age :" +p.getAge);
+
+	}
+
+}

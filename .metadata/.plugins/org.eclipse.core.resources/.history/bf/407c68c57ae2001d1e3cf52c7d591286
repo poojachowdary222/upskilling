@@ -1,0 +1,14 @@
+package day3;
+
+public class VehicleMotorcycle extends Vehicle {
+    private int numWheels;
+
+    public VehicleMotorcycle(String make, String model, int year, int numWheels) {
+        super(make, model, year);
+        this.numWheels = numWheels;
+    }
+
+    public int getNumWheels() {
+        return numWheels;
+    }
+}

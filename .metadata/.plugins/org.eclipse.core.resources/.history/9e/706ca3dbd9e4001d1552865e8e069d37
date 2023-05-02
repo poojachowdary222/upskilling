@@ -1,0 +1,23 @@
+package day2;
+
+class MOMOAnimal {
+	   public void makeSound() {
+	      System.out.println("The animal makes a sound");
+	   }
+	}
+
+	class Dog extends MOMOAnimal {
+	   // Method overriding
+	   public void makeSound() {
+	      System.out.println("The dog barks");
+	   }
+	   
+	   // Method overloading
+	   public void makeSound(int numBarks) {
+	      for(int i=0; i<numBarks; i++) {
+	         System.out.println("Woof!");
+	      }
+	   }
+	}
+
+	

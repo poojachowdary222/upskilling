@@ -1,0 +1,19 @@
+package p1;
+
+
+
+public class PM {
+
+	public static void main(String[] args) {
+		Poly a;  
+		a=new Dog();  
+		a.eat();  
+		a=new Cat();  
+		a.eat();  
+		a=new Lion();  
+		a.eat();  
+		}
+		 
+	}
+
+}

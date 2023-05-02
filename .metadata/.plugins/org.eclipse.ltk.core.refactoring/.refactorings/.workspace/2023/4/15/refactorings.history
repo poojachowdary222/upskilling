@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;NON FSD&apos; to &apos;Non Fsd&apos;" description="Rename resource &apos;NON FSD&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/NON FSD" name="Non Fsd" stamp="1681367914971" updateReferences="true"/>
+</session>
